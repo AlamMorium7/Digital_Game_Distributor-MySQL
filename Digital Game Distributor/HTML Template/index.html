@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Game Distributor</title>
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!--Owl Carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw==" crossorigin="anonymous" />
+
+    <!--Custom CSS file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--start header-->
+    <header id="header">
+        <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+            <p class="font-rale font-size-12 text-black-50 m-0">Test</p>
+            <div class="font-rale font-size-14">
+                <a href="http://localhost/CSE-311 Project/Digital Game Distributor/Login_registration.php" target="blank">Login</a>
+                <a href="#" class='px-3 border-right  text-dark'>Wishlist (0)</a>
+            </div>
+
+        </div>
+        <!--primary navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Digital Game Distributor</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto font-rubik">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">On Sale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reviews and Ratings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Upcoming Games</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <!--Search button for future reference-->
+                <!--<form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>-->
+
+                <form action="#" class="font-size-14 font-raleway">
+                    <a href="#" class='py-2 rounded-pill color-primary-bg'>
+                        <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                    </a>
+                </form>
+
+
+            </div>
+        </nav>
+
+    </header>
+    <!--!start header-->
+
+    <!--start main-->
+
+    <main id="main-site">
+        <!--Owl Carousel-->
+        <section id="banner-area">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../assets/banner01.jpg" alt="b1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/banner02.jpg" alt="b2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/banner03.jpg" alt="b3">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div>
+        </section>
+        <!--Owl Carousel-->
+
+        <!--top sale-->
+
+        <section id="top-sale">
+            <div class="container py-5">
+                <h4 class="font-rubik font-size-20">Top Sale</h4>
+                <hr>
+                <div class="owl-carousel owl-theme">
+                    <div class="item" py-2>
+                        <div class="games font-raleway">
+                            <a href="#"><img src="../assets/Games/1.jpg" alt="game1" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Cyberpunk 2077</h6>
+                                <div class="rating text-warning font-size-12"></div>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$60</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item" py-2>
+                        <div class="games font-raleway">
+                            <a href="#"><img src="../assets/Games/2.jpg" alt="game2" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Witcher 3</h6>
+                                <div class="rating text-warning font-size-12"></div>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$30</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item" py-2>
+                        <div class="games font-raleway">
+                            <a href="#"><img src="../assets/Games/3.jpg" alt="game3" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Doom: Eternal</h6>
+                                <div class="rating text-warning font-size-12"></div>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$60</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item" py-2>
+                        <div class="games font-raleway">
+                            <a href="#"><img src="../assets/Games/4.jpg" alt="game4" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Red Dead Redemption 2</h6>
+                                <div class="rating text-warning font-size-12"></div>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$50</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item" py-2>
+                        <div class="games font-raleway">
+                            <a href="#"><img src="../assets/Games/5.jpg" alt="game5" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>FIFA 20</h6>
+                                <div class="rating text-warning font-size-12"></div>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$60</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item" py-2>
+                        <div class="games font-raleway">
+                            <a href="#"><img src="../assets/Games/6.jpg" alt="game6" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Control</h6>
+                                <div class="rating text-warning font-size-12"></div>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$40</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item" py-2>
+                        <div class="games font-raleway">
+                            <a href="#"><img src="../assets/Games/7.jpg" alt="game7" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Sekiro: Shadows Die Twice</h6>
+                                <div class="rating text-warning font-size-12"></div>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$30</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item" py-2>
+                        <div class="games font-raleway">
+                            <a href="#"><img src="../assets/Games/8.png" alt="game8" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Resident Evil 2</h6>
+                                <div class="rating text-warning font-size-12"></div>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$40</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--top sale-->
+
+        <!--Special Price-->
+        <section id="special-price">
+            <div class="container">
+                <h4 class="font-rubik font-size-20">Special Price</h4>
+                <div id="filters" class="button-group text-right font-rubik font-size-16">
+                    <button class="btn is-checked" data-filter="*">All Publishers</button>
+                    <button class="btn" data-filter=".Rockstar">Rockstar</button>
+                    <button class="btn" data-filter=".Activision">Activision</button>
+                    <button class="btn" data-filter=".Ubisoft">Ubisoft</button>
+                </div>
+
+                <div class="grid">
+                    <div class="grid-item Rockstar border">
+                        <div class="item py-2" style="width: 200px;">
+                            <div class="product font-rale">
+                                <a href="#"><img src="../assets/Games/9.jpg" alt="game9" class="img-fluid"></a>
+                                <div class="text-center">
+                                    <h6>GTA V</h6>
+                                    <div class="rating text-warning font-size-12">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                    <div class="price py-2">
+                                        <span>$15</span>
+                                    </div>
+                                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item Rockstar border">
+                        <div class="item py-2" style="width: 200px;">
+                            <div class="product font-rale">
+                                <a href="#"><img src="../assets/Games/10.jpg" alt="game10" class="img-fluid"></a>
+                                <div class="text-center">
+                                    <h6>Max Payne 3</h6>
+                                    <div class="rating text-warning font-size-12">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                    <div class="price py-2">
+                                        <span>$10</span>
+                                    </div>
+                                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item Activision border">
+                        <div class="item py-2" style="width: 200px;">
+                            <div class="product font-rale">
+                                <a href="#"><img src="../assets/Games/11.jpg" alt="game11" class="img-fluid"></a>
+                                <div class="text-center">
+                                    <h6>Call of Duty: Modern Warfare (2019)</h6>
+                                    <div class="rating text-warning font-size-12">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                    <div class="price py-2">
+                                        <span>$30</span>
+                                    </div>
+                                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-item Activision border">
+                        <div class="item py-2" style="width: 200px;">
+                            <div class="product font-rale">
+                                <a href="#"><img src="../assets/Games/12.jpg" alt="game12" class="img-fluid"></a>
+                                <div class="text-center">
+                                    <h6>Call of Duty: Modern Warfare 2 Remastered</h6>
+                                    <div class="rating text-warning font-size-12">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                    </div>
+                                    <div class="price py-2">
+                                        <span>$20</span>
+                                    </div>
+                                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-item Ubisoft border">
+                        <div class="item py-2" style="width: 200px;">
+                            <div class="product font-rale">
+                                <a href="#"><img src="../assets/Games/13.jpg" alt="game13" class="img-fluid"></a>
+                                <div class="text-center">
+                                    <h6>Watch Dogs 2</h6>
+                                    <div class="rating text-warning font-size-12">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                    <div class="price py-2">
+                                        <span>$10</span>
+                                    </div>
+                                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-item Ubisoft border">
+                        <div class="item py-2" style="width: 200px;">
+                            <div class="product font-rale">
+                                <a href="#"><img src="../assets/Games/14.jpg" alt="game14" class="img-fluid"></a>
+                                <div class="text-center">
+                                    <h6>Assassin's Creed: Odyssey</h6>
+                                    <div class="rating text-warning font-size-12">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                    <div class="price py-2">
+                                        <span>$25</span>
+                                    </div>
+                                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+        </section>
+        <!--Special Price-->
+
+        <!--New Games-->
+        <section id="new-games">
+            <div class="container">
+                <h4 class="font-rubik font-size-20">
+                    New Games</h4>
+                <hr>
+
+                <div class="owl-carousel owl-theme">
+                    <div class="item" py-2>
+                        <div class="games font-raleway">
+                            <a href="#"><img src="../assets/Games/1.jpg" alt="game1" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Cyberpunk 2077</h6>
+                                <div class="rating text-warning font-size-12"></div>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$60</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="item" py-2>
+                        <div class="games font-raleway">
+                            <a href="#"><img src="../assets/Games/3.jpg" alt="game3" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Doom: Eternal</h6>
+                                <div class="rating text-warning font-size-12"></div>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$60</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item" py-2>
+                        <div class="games font-raleway">
+                            <a href="#"><img src="../assets/Games/4.jpg" alt="game4" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Red Dead Redemption 2</h6>
+                                <div class="rating text-warning font-size-12"></div>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$50</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="item" py-2>
+                        <div class="games font-raleway">
+                            <a href="#"><img src="../assets/Games/6.jpg" alt="game6" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Control</h6>
+                                <div class="rating text-warning font-size-12"></div>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$40</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="item" py-2>
+                        <div class="games font-raleway">
+                            <a href="#"><img src="../assets/Games/15.png" alt="game15" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Last of Us 2</h6>
+                                <div class="rating text-warning font-size-12"></div>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$50</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="item" py-2>
+                        <div class="games font-raleway">
+                            <a href="#"><img src="../assets/Games/16.jpg" alt="game16" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Marvel's Avengers</h6>
+                                <div class="rating text-warning font-size-12"></div>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$40</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--Blogs/Reviews-->
+
+        <section id="blogs">
+            <div class="container py-4">
+                <h4 class="font-rubik font-size-20">Latest Blogs/Reviews</h4>
+                <hr>
+
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card border-0 font-rale mr-5" style="width: 18rem;">
+                            <h5 class="card-title font-size-16">Detailed Review of Cyberpunk 2077</h5>
+                            <img src="../assets/Blog/1.jpg" alt="cart image" class="card-img-top">
+                            <p class="card-text font-size-14 text-black-50 py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non iste sequi cupiditate tempora iure. Velit accusamus saepe harum sed.</p>
+                            <a href="#" class="color-second text-left">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 font-rale mr-5" style="width: 18rem;">
+                            <h5 class="card-title font-size-16">Gaming News</h5>
+                            <img src="../assets/Blog/2.jpg" alt="cart image" class="card-img-top">
+                            <p class="card-text font-size-14 text-black-50 py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non iste sequi cupiditate tempora iure. Velit accusamus saepe harum sed.</p>
+                            <a href="#" class="color-second text-left">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 font-rale mr-5" style="width: 18rem;">
+                            <h5 class="card-title font-size-16">Hardware News</h5>
+                            <img src="../assets/Blog/3.jpg" alt="cart image" class="card-img-top">
+                            <p class="card-text font-size-14 text-black-50 py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non iste sequi cupiditate tempora iure. Velit accusamus saepe harum sed.</p>
+                            <a href="#" class="color-second text-left">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Blogs-->
+
+
+
+    </main>
+    <!--start main site-->
+
+    <!--start footer-->
+    <footer id="footer" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <h4 class="font-rubik font-size-20">Digital Game Distributor</h4>
+                    <p class="font-size-14 font-rale text-white-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, deserunt.</p>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <h4 class="font-rubik font-size-20">Newsletter</h4>
+                    <form class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Email *">
+                        </div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <h4 class="font-rubik font-size-20">Information</h4>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <h4 class="font-rubik font-size-20">Account</h4>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">My Account</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Order History</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Wish List</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Newsletters</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright text-center bg-dark text-white py-2">
+        <p class="font-rale font-size-14">&copy; A Digital Game Distributor Website made for the CSE311 course by <a href="#" class="color-second">Samya Sunibir Das & Nazmul Hasan</a></p>
+    </div>
+    <!--start footer-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+
+
+
+    <!--isotope plugin cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+
+
+    <!-- Custom Javascript -->
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Game Distributor</title>
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!--Owl Carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw==" crossorigin="anonymous" />
+    
+    <!--Custom CSS file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--start header-->
+    <header id="header">
+        <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+        <p class="font-rale font-size-12 text-black-50 m-0">Test</p>
+        <div class="font-rale font-size-14">
+            <a href="#"class='px-3 border-right border-left text-dark'>Login</a>
+            <a href="#"class='px-3 border-right  text-dark'>Wishlist (0)</a>     
+        </div>            
+
+        </div>
+        <!--primary navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Digital Game Distributor</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto font-rubik">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">On Sale</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Category</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Games</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Reviews and Ratings</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Upcoming Games</a>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <!--Search button for future reference-->
+              <!--<form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>-->
+
+              <form action="#"class="font-size-14 font-raleway">
+                  <a href="#"class='py-2 rounded-pill color-primary-bg'>
+                      <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                  </a>
+              </form>
+
+
+            </div>
+          </nav>
+
+    </header>
+    <!--!start header-->
+
+    <!--start main-->
+
+     <main id="main-site">
+         
+        <!--Games-->
+        <section id="games" class="py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="../assets/Games/1.jpg" alt="game1" class="img-fluid">
+                        <div class="form-row pt-4 font-size-16 font-rubik">
+                            <div class="col">
+                                <button type="submit" class="btn btn-danger form-control">Proceed to Buy</button>
+                            </div>
+                            <div class="col">
+                                <button type="submit" class="btn btn-warning form-control">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 py-5">
+                        <h5 class="font-rubik font-size-20">Cyberpunk 2077</h5>
+                        <small>by CD Projekt Red</small>
+                        <div class="d-flex">
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                              </div>
+                              <a href="#" class="px-2 font-rale font-size-14">20,534 ratings | 1000+ reviews</a>
+                        </div>
+                        <hr class="m-0">
+
+                        <!---    product price       -->
+                            <table class="my-3">
+                                <tr class="font-rale font-size-14">
+                                    <td>M.R.P:</td>
+                                    <td><strike>$70</strike></td>
+                                </tr>
+                                <tr class="font-rale font-size-14">
+                                    <td>Deal Price:</td>
+                                    <td class="font-size-20 text-danger">$<span>60</span><small class="text-dark font-size-12">&nbsp;&nbsp;Inclusive of all taxes</small></td>
+                                </tr>
+                               
+                            </table>
+                        <!---    !product price       -->
+
+                         <!--    #policy -->
+                            <div id="policy">
+                                <div class="d-flex">
+                                    <div class="return text-center mr-5">
+                                        <div class="font-size-20 my-2 color-second">
+                                            <span class="fas fa-retweet border p-3 rounded-pill"></span>
+                                        </div>
+                                        <a href="#" class="font-rale font-size-12">3 Hour Playtime <br> Replacement</a>
+                                    </div>
+                                    <div class="return text-center mr-5">
+                                        <div class="font-size-20 my-2 color-second">
+                                            <span class="fas fa-truck  border p-3 rounded-pill"></span>
+                                        </div>
+                                        <a href="#" class="font-rale font-size-12">Home Delivery Availbable <br>for Hard Copy</a>
+                                    </div>
+                                    <div class="return text-center mr-5">
+                                        <div class="font-size-20 my-2 color-second">
+                                            <span class="fas fa-check-double border p-3 rounded-pill"></span>
+                                        </div>
+                                        <a href="#" class="font-rale font-size-12">Trusted <br>Publisher</a>
+                                    </div>
+                                </div>
+                            </div>
+                          <!--    !policy -->
+                            <hr>
+
+                        <!-- order-details -->
+                            <div id="order-details" class="font-rale d-flex flex-column text-dark">
+                                <small>Delivery by (<b>For Disks/Blurays</b>) : Within 2 business days</small>
+                                <small>Sold by (<b>For Disks/Blurays</b>) <a href="#">Gaming Zone </a>(4.5 out of 5 | 18,198 ratings)</small>
+                                <small><i class="fas fa-map-marker-alt color-primary"></i>&nbsp;&nbsp;Deliver to Customer - 424201</small>
+                            </div>
+                         <!-- !order-details -->
+
+                         <div class="row">
+                             <div class="col-6">
+                                    
+                             </div>
+                             <div class="col-6">
+                               <!-- product qty section -->  
+                                 <div class="qty d-flex">
+                                     <h6 class="font-rubik">Qty</h6>
+                                     <div class="px-4 d-flex font-rale">
+                                         <button class="qty-up border bg-light" data-id="pro1"><i class="fas fa-angle-up"></i></button>
+                                         <input type="text" data-id="pro1" class="qty_input border px-2 w-50 bg-light" disabled value="1" placeholder="1">
+                                         <button data-id="pro1" class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                     </div>
+                                 </div>
+                                <!-- !product qty section -->  
+                             </div>
+                         </div>
+
+                        <!-- size -->
+                            <div class="size my-3">
+                                <h6 class="font-rubik">Platform :</h6>
+                                <div class="d-flex justify-content-between w-75">
+                                    <div class="font-rubik border p-2">
+                                        <button class="btn p-0 font-size-14">PC</button>
+                                    </div>
+                                    <div class="font-rubik border p-2">
+                                        <button class="btn p-0 font-size-14">XBOX</button>
+                                    </div>
+                                    <div class="font-rubik border p-2">
+                                        <button class="btn p-0 font-size-14">PS4</button>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- !size -->
+
+
+                    </div>
+
+                    <div class="col-12">
+                        <h6 class="font-rubik"><b>Game Description, Synopsis, Trailer</b></h6>
+                        <hr>
+                        <p class="font-rale font-size-14">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat inventore vero numquam error est ipsa, consequuntur temporibus debitis nobis sit, delectus officia ducimus dolorum sed corrupti. Sapiente optio sunt provident, accusantium eligendi eius reiciendis animi? Laboriosam, optio qui? Numquam, quo fuga. Maiores minus, accusantium velit numquam a aliquam vitae vel?</p>
+                        <p class="font-rale font-size-14">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat inventore vero numquam error est ipsa, consequuntur temporibus debitis nobis sit, delectus officia ducimus dolorum sed corrupti. Sapiente optio sunt provident, accusantium eligendi eius reiciendis animi? Laboriosam, optio qui? Numquam, quo fuga. Maiores minus, accusantium velit numquam a aliquam vitae vel?</p>
+                        
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ixl31324UxE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Games-->
+
+         <!--top sale-->
+
+        <section id="top-sale">
+          <div class="container py-5">
+            <h4 class="font-rubik font-size-20">Top Sale</h4>
+            <hr>
+            <div class="owl-carousel owl-theme">
+              <div class="item" py-2>
+                <div class="games font-raleway">
+                  <a href="#"><img src="../assets/Games/1.jpg" alt="game1" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>Cyberpunk 2077</h6>
+                    <div class="rating text-warning font-size-12"></div>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$60</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </div>
+              </div>
+              <div class="item" py-2>
+                <div class="games font-raleway">
+                  <a href="#"><img src="../assets/Games/2.jpg" alt="game2" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>Witcher 3</h6>
+                    <div class="rating text-warning font-size-12"></div>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$30</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </div>
+              </div>
+              <div class="item" py-2>
+                <div class="games font-raleway">
+                  <a href="#"><img src="../assets/Games/3.jpg" alt="game3" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>Doom: Eternal</h6>
+                    <div class="rating text-warning font-size-12"></div>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$60</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </div>
+              </div>
+              <div class="item" py-2>
+                <div class="games font-raleway">
+                  <a href="#"><img src="../assets/Games/4.jpg" alt="game4" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>Red Dead Redemption 2</h6>
+                    <div class="rating text-warning font-size-12"></div>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$50</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </div>
+              </div>
+              <div class="item" py-2>
+                <div class="games font-raleway">
+                  <a href="#"><img src="../assets/Games/5.jpg" alt="game5" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>FIFA 20</h6>
+                    <div class="rating text-warning font-size-12"></div>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$60</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </div>
+              </div>
+              <div class="item" py-2>
+                <div class="games font-raleway">
+                  <a href="#"><img src="../assets/Games/6.jpg" alt="game6" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>Control</h6>
+                    <div class="rating text-warning font-size-12"></div>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$40</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </div>
+              </div>
+              <div class="item" py-2>
+                <div class="games font-raleway">
+                  <a href="#"><img src="../assets/Games/7.jpg" alt="game7" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>Sekiro: Shadows Die Twice</h6>
+                    <div class="rating text-warning font-size-12"></div>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$30</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </div>
+              </div>
+              <div class="item" py-2>
+                <div class="games font-raleway">
+                  <a href="#"><img src="../assets/Games/8.png" alt="game8" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>Resident Evil 2</h6>
+                    <div class="rating text-warning font-size-12"></div>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                  </div>
+                  <div class="price py-2">
+                    <span>$40</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+         <!--top sale-->
+
+    
+
+
+
+     </main>   
+    <!--start main site-->
+
+    <!--start footer-->
+    <footer id="footer" class="bg-dark text-white py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-12">
+                <h4 class="font-rubik font-size-20">Digital Game Distributor</h4>
+                <p class="font-size-14 font-rale text-white-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, deserunt.</p>
+              </div>
+              <div class="col-lg-4 col-12">
+                <h4 class="font-rubik font-size-20">Newsletter</h4>
+                <form class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Email *">
+                  </div>
+                  <div class="col">
+                    <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Information</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Account</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">My Account</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Order History</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Wish List</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Newsletters</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="copyright text-center bg-dark text-white py-2">
+          <p class="font-rale font-size-14">&copy; A Digital Game Distributor Website made for the CSE311 course by <a href="#" class="color-second">Samya Sunibir Das & Nazmul Hasan</a></p>
+        </div>
+    <!--start footer-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+
+
+
+<!--isotope plugin cdn-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+
+
+ <!-- Custom Javascript -->
+ <script src="index.js"></script>
+
+
+</body>
+</html>
