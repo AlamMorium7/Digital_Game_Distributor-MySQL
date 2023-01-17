@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="StyLe.css">
+</head>
+
+<body>
+    <div class="Cover">
+        <div class="Form">
+            <br/>
+            <p id="Msg">Digital Game Distributor</p>
+            <div class="Button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-button" onclick="login()">Log in</button>
+                <button type="button" class="toggle-button" onclick="register()">Registration</button>
+            </div>
+            <form id="Log-in" class="user-input">
+                <input type="text" class="input-field" placeholder="User Name" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <button type="submit" class="submit-button">Go</button>
+                <p id="msg2">Do not have any account ?<a onclick="register()"><b style="color: chartreuse;">Register</b></a></p>
+            </form>
+
+            <form id="Register" class="registration-input">
+                <input type="text" class="input-field" placeholder="User Name" required>
+                <input type="text" class="input-field" placeholder="Email" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="password" class="input-field" placeholder="Confirm password" required>
+                <button type="submit" class="submit-reg-button">Register</button>
+                <p id="msg2">Already a member ?<a onclick="login()"><b style="color: chartreuse;">Log in</b></a></p>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        var userLogin = document.getElementById("Log-in");
+        var userReg = document.getElementById("Register");
+        var x = document.getElementById("btn");
+
+        function login() {
+            userLogin.style.left = "50px";
+            userReg.style.left = "-400px";
+            x.style.left = "0px";
+        }
+
+        function register() {
+            userLogin.style.left = "-400px";
+            userReg.style.left = "50px";
+            x.style.left = "100px";
+        }
+    </script>
+</body>
+
+</html>
